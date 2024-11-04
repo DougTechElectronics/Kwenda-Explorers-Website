@@ -1,0 +1,5 @@
+[30-Oct-2024 23:01:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/kwendaexplorers/public_html/book_form.php:3
+Stack trace:
+#0 /home/kwendaexplorers/public_html/book_form.php(3): mysqli_connect('localhost', 'root', '', 'book_db')
+#1 {main}
+  thrown in /home/kwendaexplorers/public_html/book_form.php on line 3
